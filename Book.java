@@ -105,8 +105,8 @@ class Book
         }
         else{
         
-        System.out.println("Title: " + title + ", " + "Author: " + author + ", " + "Pages: " + pages + ", " + "Ref Number: " + refNumber
-        + ", " + "Books borrowed: " + borrowed);
+        System.out.print("\n" + "Title: " + title + "\n" + "Author: " + author + "\n" + "Pages: " + pages + "\n" + "Ref Number: " + refNumber
+        + "\n" + "Books borrowed: " + borrowed + "\n");
     }
     }
     //Exercise 2.88
