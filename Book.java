@@ -120,7 +120,14 @@ class Book
     //Exercise 2.90
     public void setRefNumber(String ref)
     {
-        refNumber = ref;
+        if(ref.length() < 3)
+        {
+            System.out.println("Invalid must be atleast 3 characters");
+        }
+        else
+        {
+            refNumber = ref;
+        }
     }
     
     public String getRefNumber()
