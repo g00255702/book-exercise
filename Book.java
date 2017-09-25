@@ -22,13 +22,13 @@ class Book
     private int borrowed;
     
     //Exercise 2.92
-    private int courseText;
+    private boolean courseText;
 
     /**
      * Set the author and title fields when this object
      * is constructed.
      */
-    public Book(String bookAuthor, String bookTitle,int bookPages, int bookCoursetext)
+    public Book(String bookAuthor, String bookTitle,int bookPages, boolean bookCoursetext)
     {
         author = bookAuthor;
         title = bookTitle;
@@ -139,7 +139,8 @@ class Book
         return borrowed;
     }
     
-    public int getisCourseText()
+    //Exercise 2.92
+    public boolean isCourseText()
     {
         return courseText;
     }
